@@ -1,0 +1,221 @@
+.icon {
+    vertical-align: middle;
+    width: 100px;
+}
+
+.content {
+    padding: 0 50px;
+}
+
+.datebtn {
+    height: 80px;
+    line-height: 80px;
+}
+.percentage{
+    font-size: 20px;
+}
+.line{
+    background: #F3F3F3;
+}
+.background {
+    background: #ffffff;
+    padding: 5px 30px 0 30px;
+    // overflow: hidden;
+    //全国排名
+    .ranking {
+        .num_title {
+            font-size: 36px;
+            font-weight: 500;
+            color: rgba(0, 0, 0, 1);
+            line-height: 50px;
+            margin-bottom: 30px;
+        }
+        .num_content {
+            height: 120px;
+            line-height: 120px;
+            background: linear-gradient(270deg, rgba(228, 227, 227, .2) 0%, rgba(176, 176, 176, .2) 100%);
+            border-radius: 20px;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            p {
+                float: left;
+                margin: 0;
+                font-size: 30px;
+                font-weight: 400;
+                color: rgba(102, 102, 102, 1);
+
+            }
+            p:first-child {
+                font-size: 48px;
+                font-weight: 500;
+                color: rgba(51, 51, 51, 1);
+                span {
+                    font-size: 30px;
+                }
+            }
+            .red {
+                color: rgba(255, 95, 102, 1);
+            }
+            .green {
+                color: rgba(31, 206, 88, 1);
+            }
+        }
+    }
+}
+
+// 竞彩销量及票数走势
+.charts {
+    width: 100%;
+    height: 100%;
+}
+
+
+.pie_chart {
+    margin-top: 74px;
+}
+
+//门店在售情况
+.condition {
+    .condition_title {
+        // margin-left: 30px;
+        height: 50px;
+        font-size: 36px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 1);
+        line-height: 50px;
+    }
+    .condition_items {
+        // background: #1B52DE;
+        height: 200px;
+        // margin: 0 30px 20px;
+        // padding: 50px 30px 36px;
+        background: linear-gradient(270deg, rgba(228, 227, 227, 0.2) 0%, rgba(176, 176, 176, 0.2) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        .item_title {
+            margin-top: 0;
+            font-size: 30px;
+            font-weight: 400;
+            color: rgba(102, 102, 102, 1);
+            line-height: 50px;
+
+        }
+        .item_title1 {
+            font-size: 30px;
+            font-weight: 400;
+            color: rgba(102, 102, 102, 1);
+            line-height: 28px;
+            margin-top: 20px;
+        }
+        .store_unit{
+            font-size: 48px;
+            font-weight: 400;
+        }
+        .item_center {
+            margin: 0 58px 0 170px;
+        }
+
+        .item_first {
+            font-size: 60px;
+            font-weight: 500;
+            color: rgba(51, 51, 51, 1);
+            line-height: 1;
+            margin-top: 26px;
+            display: block;
+        }
+
+        .item_same {
+            font-size: 30px;
+            font-weight: 600;
+            color: rgba(255, 95, 102, 1);
+            line-height: 42px;
+        }
+        .item_annular {
+            font-size: 30px;
+            font-weight: 600;
+            color: rgba(31, 206, 88, 1);
+            line-height: 42px;
+        }
+
+    }
+}
+
+// 地区销量排行榜
+.sales_ranking {
+    height: 602px;
+    .sales_title {
+        font-size: 36px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 1);
+        margin-top: 72px;
+        span:last-child {
+            float: right;
+            font-size: 28px;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+            line-height: 1;
+        }
+        .arrow {
+            width: 16px;
+            height: 28px;
+            vertical-align: top;
+            margin-left: 10px;
+        }
+    }
+    .list_box {
+        padding: 0;
+        li {
+            list-style: none;
+            height: 80px;
+            border-radius: 12px;
+            line-height: 80px;
+            display: flex;
+            span {
+                flex: 1 1;
+                font-size: 30px;
+                font-weight: 500;
+                // color: rgba(51, 51, 51, 1);
+                .unit {
+                    font-size: 25px;
+                }
+                img{
+                    max-height: 70px;
+                    padding-top: 10px;
+                }
+            }
+            span:first-child {
+                text-align: center;
+            }
+            .plus {
+                color: rgba(255, 95, 102, 1);
+            }
+            .negative {
+                color: rgba(31, 206, 88, 1);
+            }
+            .hide{
+                display: none;
+            }
+        }
+        li.heard {
+            background: rgba(247, 247, 247, 1);
+        }
+        // li:nth-child(2n+1) {
+        //     background: rgba(244, 248, 252, 1);
+        // }
+        // li:nth-child(2n) {
+        //     background: rgba(255, 255, 255, 1);
+        // }
+        .percentage{
+            font-size: 20px;
+        }
+    }
+}
+
+
+
+

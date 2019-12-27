@@ -1,0 +1,79 @@
+.line{
+    background: #F3F3F3;
+}
+.container{
+    width: 100%;
+    // height: 100%;
+    // padding-bottom: 62px;
+    background: #fff;
+    min-height: calc(100vh - 200px);
+    position: relative;
+}
+.tab{
+    display: flex;
+    height: 104px;
+    background: #fff;
+    justify-content: space-around;
+    align-items: center;
+    font-size:36px;
+    font-weight:600;
+    color:rgba(34,34,34,1);
+    span{
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        line-height: 104px;
+        text-align: center;
+    }
+    .football{
+        color: #666666;
+        font-weight:400;
+        background: url(../../../assets/football.png) no-repeat;
+        background-size: 100% 104px;
+    }
+    .basketball{
+        color: #666666;
+        font-weight:400;
+        background: url(../../../assets/basketball.png) no-repeat;
+        background-size: 100% 104px;
+    }
+}
+
+.content{
+    width: 100%;
+    background: #fff;
+    .tab_cont{
+        padding: 0 28px;
+        .stage_title{
+            font-size:36px;
+            font-weight:500;
+            color:rgba(0,0,0,1);
+            margin-top: 40px;
+        }
+        .pie{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+.see_all{
+    display: block;
+    width: 600px;
+    height: 88px;
+    text-align: center;
+    line-height: 88px;
+    color: #1B52DE;
+    background:rgba(242,245,255,1);
+    border-radius:4px;
+    border:1px solid rgba(216,227,255,1);
+    font-size:30px;
+    // margin: 0 auto;
+    // margin-top: 130px;
+    position: absolute;
+    bottom: 62px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
